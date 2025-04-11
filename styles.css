@@ -1,0 +1,31 @@
+.post {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.post img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.post p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+#posts-container {
+    text-align: center;
+}
