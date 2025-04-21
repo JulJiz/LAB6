@@ -22,7 +22,7 @@ function createPost(name, message, imageURL) {
 const postsContainer = document.getElementById('posts-container');
 
 for (let i = 1; i <= 826; i++) {
-    const name = `Character ${i}`;
+    const name = `Personaje ${i}`;
     const message = `Esta es mi publicación número ${i}. Esta es una prueba de generación de código por medio de funciones y ciclos.`;
     const imageURL = `https://rickandmortyapi.com/api/character/avatar/${i}.jpeg`;
 
